@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>JewSaPOS.WinForms</RootNamespace>
+    <AssemblyName>JewSaPOS.WinForms</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Configuration" />
+    <ProjectReference Include="..\JewSaPOS.Domain\JewSaPOS.Domain.csproj" />
+    <ProjectReference Include="..\JewSaPOS.Data\JewSaPOS.Data.csproj" />
+    <ProjectReference Include="..\JewSaPOS.Services\JewSaPOS.Services.csproj" />
+  </ItemGroup>
+</Project>

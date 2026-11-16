@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>JewSaPOS.Data</RootNamespace>
+    <AssemblyName>JewSaPOS.Data</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <ProjectReference Include="..\JewSaPOS.Domain\JewSaPOS.Domain.csproj" />
+  </ItemGroup>
+</Project>
